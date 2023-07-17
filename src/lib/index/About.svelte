@@ -26,18 +26,18 @@
 
 <svelte:head>
 	{#if active}
-		<title>KekOnTheWorld | About</title>
+		<title>Jaden | About</title>
 	{/if}
 </svelte:head>
 
 <section class:active class="full">
 	<h1>
-		<FlyinText text="KekOnTheWorld" flyin={active} delay={300} />
+		<FlyinText text="Jaden" flyin={active} delay={300} />
 	</h1>
 	<p>
-		Lucas Birkert (aka. KekOnTheWorld) is a student and developer who loves Opensource Software. He
-		has been coding for <Timesince time={new Date("2020-3-8 9:15")} /> and is heavily
-		<a href="#experience">experienced</a> in Front- and Backend development.
+		Jaden is a student and developer who has a great intrest for server development. He
+		has been coding for <Timesince time={new Date("2022-10-24 8:15")} /> and is heavily
+		<a href="#experience">experienced</a> in Front End Development.
 	</p>
 	<div class="socials">
 		<a href={DISCORD_URL} target="_blank" rel="noreferrer" title="Discord">
@@ -80,7 +80,7 @@
 	}
 
 	.socials {
-		--background: white;
+		--background: #74b6e2;
 		@apply flex sm:gap-5 gap-4 mt-2;
 	}
 
